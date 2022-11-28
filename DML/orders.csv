@@ -1,0 +1,11 @@
+order_id,customer_id,order_date,total_amount,status,tracking_number,arrival_date,delivery_person
+DEFAULT,1,"\func DEFAULT",2,Completed,FSW3JFFUGA,2020-01-25,"Leah Vincent"
+DEFAULT,2,"\func DEFAULT",3,Completed,FXXJJNZQJE,2020-01-25,"Roberta Castaneda"
+DEFAULT,6,"\func DEFAULT",1,"Awaiting Pickup",BYZ9XEWKA3,2020-03-27,"Terry Roth"
+DEFAULT,3,"\func DEFAULT",3,"Awaiting Pickup",NGLDACCYZ7,2021-06-05,"Lynn Weber"
+DEFAULT,4,"\func DEFAULT",2,"Awaiting Pickup",BXTJ94VGEM,2021-10-07,"Sean Dennis"
+DEFAULT,1,"\func DEFAULT",3,Declined,36QNFLTDD5,2021-10-20,"Mr. Curtis Grimes"
+DEFAULT,2,"\func DEFAULT",4,Refunded,YAWAEN2H4S,2022-06-27,"Jennifer Phillips"
+DEFAULT,6,"\func DEFAULT",2,"Awaiting Shipment",CLQ9RWNDEE,2022-06-25,"Laura Hall"
+DEFAULT,3,"\func DEFAULT",1,"Awaiting Fulfillment",3JHKAYFQ9K,2022-10-30,"David Nolan"
+DEFAULT,4,"\func DEFAULT",3,Pending,NULL,NULL,NULL

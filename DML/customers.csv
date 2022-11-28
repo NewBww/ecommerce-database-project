@@ -1,0 +1,11 @@
+customer_id,email,hashed_password,customer_name,customer_lastname,address,telephone,created_at
+DEFAULT,banlearit.siri@gmail.com,e82146238410edb61a4bebaaaf79b177e98d5bf572f5089fa42cb38ae34d2dfa,Banlearit,Siriboon,"{"address": {"street": "609 Barrington Court", "City": "Piggott"}}","+1 316-311-6177","\func DEFAULT"
+DEFAULT,bonoxe2446@kuvasin.com,0d1e5fab139fe6b34fad464f7e7fc59e9d2eff9a761932d66be5f9b9f8c3c442,Leonard,Novak,"{"address": {"street": "3365 Poe Road", "City": "North Charleston"}}","+1 309-715-6386","\func DEFAULT"
+DEFAULT,dasole8187@nubotel.com,a0ac8f2ba8dab76a64dd989a421997a6d8d89e00dde7ada20a00eac48e44d508,Shaylee,Estrada,"{"address": { "street": "1863 Hemlock Lane", "City": "Harlingen"}}","+1 505-644-2303","\func DEFAULT"
+DEFAULT,cotob97508@nubotel.com,0550566a8aae53578df9db287a6beb840f82dea9fe364de0ee861408c607e48b,Yael,Hayes,"{"address": { "street": "622 Shady Pines Drive", "City": "Wytheville"}}","+1 224-411-2818","\func DEFAULT"
+DEFAULT,deyicof678@nubotel.com,fb511352960b627340a8e66f991b8c5f43f9f1de2a1bbe9646fc1ba52b36b31a,Jamir,Weber,"{"address": {"street": "4808 Sherman Street", "City": "Lawrence"}}","+1 218-980-9479","\func DEFAULT"
+DEFAULT,vajalod304@probdd.com,8b89b7de6c1c9847953d37188f651a4392c46604ee7809fbb4053d83e366af83,Landon,Mclean,"{"address": {"street": "2626 Glenview Drive", "City": "Corpus Christi"}}","+1 207-384-2684","\func DEFAULT"
+DEFAULT,pofaw36777@kuvasin.com,512c0b1ea4c1197ceb3ced3703a0c4e2581e8afb5caeb0da405b3e2eeba089d1,Erik,Finley,"{"address": {"street": "2900 Olen Thomas Drive", "City": "Wichita Falls"}}","+1 435-735-6720","\func DEFAULT"
+DEFAULT,sapobe7142@probdd.com,bc4e02087b195e22436957f331f3144da4bec1f317a21f85b1a4e165ba0b0e4f,Karma,Liu,"{"address": {"street": "853 Woodland Terrace", "City": "Sacramento"}}","+1 505-219-2420","\func DEFAULT"
+DEFAULT,kaxoc93466@rubeshi.com,8f13e0e3a432c7f5ec515fd213ce434368f2d87aca4baa1b02c871569ce1bb12,Shayna,Horn,"{"address": {"street": "261 Oakridge Farm Lane", "City": "Milwaukee"}}","+1 225-928-5202","\func DEFAULT"
+DEFAULT,jeyayos488@kuvasin.com,d4566c7ba4955b031d50fd727150d6862d2d3b947fac38688a2d384863a0ea09,Jeramiah,Villegas,"{"address": {"street": "3419 Camden Street", "City": "Reno"}}","+1 505-406-9701","\func DEFAULT"
