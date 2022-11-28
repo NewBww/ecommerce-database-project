@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `e-commerce`.`products` ;
 CREATE TABLE IF NOT EXISTS `e-commerce`.`products` (
   `product_id` INT NOT NULL AUTO_INCREMENT,
   `sku` VARCHAR(45) NOT NULL,
-  `product_name` VARCHAR(45) NOT NULL,
+  `product_name` VARCHAR(100) NOT NULL,
   `desc` JSON NOT NULL,
   PRIMARY KEY (`product_id`),
   UNIQUE INDEX `UX__PRODUCTS__SKU` (`sku` ASC) VISIBLE)
@@ -286,3 +286,18 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+-- -----------------------------------------------------
+-- Data for table `e-commerce`.`products`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `e-commerce`;
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '53870', 'Amazon Echo Dot (3rd Gen) Smart Speaker with Alexa', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '34589', 'Apple – HomePod mini – Space Gray', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '18340', 'ecobee3 lite Smart Thermostat – Black', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '12378', 'Google – Nest Hello Smart Wi-Fi Video Doorbell', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '34545', 'Indoor/Outdoor Wire Free 1080p Security Camera', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+INSERT INTO `e-commerce`.`products` (`product_id`, `sku`, `product_name`, `desc`) VALUES (DEFAULT, '23458', 'LIFX Mini Color A19 – Multicolor', '{\"desc\": \"The Nest Learning Thermostat is a smart thermostat that learns your schedule and programs itself to help save energy. You can control it from anywhere with the Nest app, and it works with Alexa and Google Assistant so you can adjust the temperature with your voice. And it’s beautifully designed, with a big, bright display.\"}');
+
+COMMIT;
+
