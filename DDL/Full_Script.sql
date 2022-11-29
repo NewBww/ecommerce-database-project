@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS `e-commerce`.`products` ;
 CREATE TABLE IF NOT EXISTS `e-commerce`.`products` (
   `product_id` INT NOT NULL AUTO_INCREMENT,
   `sku` VARCHAR(45) NOT NULL,
-  `product_name` VARCHAR(45) NOT NULL,
+  `product_name` VARCHAR(100) NOT NULL,
   `desc` JSON NOT NULL,
   PRIMARY KEY (`product_id`),
   UNIQUE INDEX `UX__PRODUCTS__SKU` (`sku` ASC) VISIBLE)
