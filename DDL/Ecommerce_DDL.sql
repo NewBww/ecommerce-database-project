@@ -57,7 +57,6 @@ CREATE TABLE IF NOT EXISTS `e-commerce`.`tags` (
   PRIMARY KEY (`tag_id`))
 ENGINE = InnoDB;
 
-
 -- -----------------------------------------------------
 -- Table `e-commerce`.`categories`
 -- -----------------------------------------------------
